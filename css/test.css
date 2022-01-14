@@ -1,0 +1,12 @@
+.kirmizi{
+    color: red;
+}
+.kutu{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    border: 10px solid burlywood;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px  cadetblue;
+}
+
