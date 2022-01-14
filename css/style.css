@@ -1,23 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap');
-
-
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-a{
-    text-decoration: none;
-    font-weight: 400;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
-
 }
-
-input,textarea{
-    border: 1px solid rgb(88, 173, 19);
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+input, textarea{
+    border:1px solid rgb(42, 173, 9);
     border-radius: 10px;
     padding: 10px;
 }
+button{
+    border:1px solid rgb(34, 139, 7);
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgb(86, 219, 53);
+    color:white;
+    font-size: 25px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(86, 219, 53);
+    padding:10px 30px;
+    border-radius: 60px;
+}
+.header .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.content .about{
+    display: flex;
+    justify-content: center;
+    width:70%;
+}
+.content .about img{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border:15px solid rgb(167, 235, 150);
+    
+}
+.content .description p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 150px;
+}
+
+.content .toolbar{
+    display: flex;
+    gap: 20px;
+    
+}
+.content .toolbar a{
+    background-color: rgb(167, 235, 150) ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 650;
+    box-shadow: 3px 3px 3px rgb(8, 12, 12);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: dotted rgb(94, 226, 17);
+}
+

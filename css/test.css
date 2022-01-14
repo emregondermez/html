@@ -10,3 +10,20 @@
     box-shadow:5px 5px 5px  cadetblue;
 }
 
+.container div{
+width: 200px;
+background-color: blueviolet;
+padding: 20px;
+margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: burlywood;
+    height: 500px;
+}
+
+
