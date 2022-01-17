@@ -36,15 +36,21 @@ button{
     align-items: center;
     gap: 10px;
 }
+.content h1{
+    display: flex;
+}
 .content{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 100px;
+   
 }
 .content .about{
     display: flex;
     justify-content: center;
     width:70%;
+  
 }
 .content .about img{
     width: 500px;
@@ -53,11 +59,12 @@ button{
     border:15px solid rgb(167, 235, 150);
     
 }
-.content .description p{
+.content .desciption {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    padding: 150px;
+    padding: 50px;
+    
 }
 
 .content .toolbar{
@@ -77,10 +84,38 @@ button{
     box-shadow: 3px 3px 3px rgb(8, 12, 12);
 }
 
+.section{
+    width:60%;
+}
+​
+.section .card{
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(167, 235, 150);
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+    gap:40px;
+    box-shadow: 3px 3px 8px rgb(190, 107, 107);
+}
+.section .card h2{
+    color:rgb(34, 139, 7);
+}
+.section .card .left{
+    flex: 3;
+}
 
+.section .card .right{
+    flex: 2;
+}
+
+.section .form-row{
+    margin-bottom: 20px;
+}
 .footer{
     display: flex;
     justify-content: space-around;
     border-top: dotted rgb(94, 226, 17);
 }
+
 
